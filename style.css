@@ -1,0 +1,62 @@
+header nav {
+    display: flex;
+    background-color: rgb(172, 172, 164);
+    height: 60px;
+    width: 1500px;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+nav .navleft {
+    margin-left: 10px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+}
+
+nav .navmid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+nav .navmid div {
+    padding-right: 40px;
+}
+
+
+nav .navright button {
+
+    margin-right: 120px;
+}
+
+main{
+    padding-left: 40px;
+    padding-top: 70px;
+    display: flex;
+}
+main  .button2{
+    border: none;
+    background-color: white;
+}
+main .cont{
+    display: flex;
+    padding-top: 150px;
+}
+main .cont div{
+    
+    /* display: flex; */
+    padding-right: 20px ;
+}
+main .cont div p{
+    font-weight: bold;
+}
+main .right{
+    /* padding :40px */
+    margin-right: 60px;
+}
